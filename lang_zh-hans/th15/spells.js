@@ -3,7 +3,7 @@
     "2": "弹符「Eagle Shooting」(射鹰)",
     "5": "弹符「鹰已击中」",
     "6": "铳符「Lunatic Gun」(月狂之枪)",
-    "9": "铳符「Lunatic Gun」（月狂之枪）",
+    "9": "铳符「Lunatic Gun」(月狂之枪)",
     "10": "兔符「Strawberry Dango」(草莓团子)",
     "12": "兔符「Berry Berry Dango」(浆果浆果团子)",
     "14": "兔符「Dango Influence」(团子影响力)",
