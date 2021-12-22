@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Pull the latest patch file from the main source server (https://srv.thpatch.net/lang_zh-hans/)
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
         run: |
             cd TimingSync
             sudo wget -tries=10 https://srv.thpatch.net/lang_zh-hans/files.js
@@ -26,8 +26,12 @@ jobs:
             svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tsa
             
     - name: Push the patch file to the GitHub repository.
+      env:
+          GITHUB_TOKEN: ${{ secrets.SYNCHONIZE_TOKEN }}
         run: |
+            git config user.name "ROCO2021"
+            git config user.email "1401548627@qq.com" 
             git add .
             chmod +x ./GenerateCommitText.sh
             ./GenerateCommitText.sh | git commit -m
-            git push
+            git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
