@@ -14,6 +14,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install wget
         sudo wget -tries=10 https://srv.thpatch.net/lang_zh-hans/files.js
+        sudo chmod +x ./PatchFileSync
         ./PatchFileSync repo_files.js files.js
         sudo rm -f repo_files.js
         sudo cp files.js ../lang_zh-hans/files.js
@@ -34,6 +35,6 @@ jobs:
         git config user.name "ROCO2021"
         git config user.email "1401548627@qq.com" 
         git add .
-        chmod +x ./GenerateCommitText.sh
+        sudo chmod +x ./GenerateCommitText.sh
         ./GenerateCommitText.sh | git commit -m
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
