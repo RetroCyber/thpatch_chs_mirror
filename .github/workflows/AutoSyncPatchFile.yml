@@ -33,6 +33,7 @@ jobs:
         git config user.email "1401548627@qq.com" 
         git add .
         cd ./TimingSync
+        git status
         sudo chmod +x ./GenerateCommitText.sh
         git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
