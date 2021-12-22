@@ -11,8 +11,6 @@ jobs:
     - name: Pull the latest patch file from the main source server (https://srv.thpatch.net/lang_zh-hans/)
       run: |
         cd ./TimingSync
-        sudo apt-get update
-        sudo apt-get install wget
         sudo wget -tries=10 https://srv.thpatch.net/lang_zh-hans/files.js
         sudo chmod +x ./PatchFileSync
         ./PatchFileSync repo_files.js files.js
@@ -22,8 +20,6 @@ jobs:
             
     - name: Pull the latest hook config files from thcrap-tsa（https://github.com/thpatch/thcrap-tsa）
       run: |
-        sudo apt-get update
-        sudo apt-get install subversion
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/aero
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tasofro
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tsa
@@ -32,6 +28,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.SYNCHONIZE_TOKEN }}
       run: |
+        cd ./TimingSync
         git config user.name "ROCO2021"
         git config user.email "1401548627@qq.com" 
         git add .
