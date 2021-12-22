@@ -1,0 +1,33 @@
+name: Synchronize Thcrap Chinese branch patch file.
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: * 0/4 * * *
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pull the latest patch file from the main source server (https://srv.thpatch.net/lang_zh-hans/)
+    - uses: actions/checkout@v2
+        run:
+            cd TimingSync
+            sudo wget -tries=10 https://srv.thpatch.net/lang_zh-hans/files.js
+            ./PatchFileSync repo_files.js files.js
+            sudo rm -f repo_files.js
+            sudo cp files.js ../lang_zh-hans/files.js
+            sudo mv files.js repo_files.js
+            
+    - name: Pull the latest hook config files from thcrap-tsa（https://github.com/thpatch/thcrap-tsa）
+        run:
+            sudo apt-get update
+            sudo apt-get install subversion
+            svn checkout https://github.com/thpatch/thcrap-tsa/trunk/aero
+            svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tasofro
+            svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tsa
+            
+    - name: Push the patch file to the GitHub repository.
+        run: |
+            git add .
+            chmod +x ./GenerateCommitText.sh
+            ./GenerateCommitText.sh | git commit -m
+            git push
