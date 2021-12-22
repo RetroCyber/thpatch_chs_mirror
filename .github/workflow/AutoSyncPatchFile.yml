@@ -1,8 +1,8 @@
 name: Synchronize Thcrap Chinese branch patch file.
 on:
-    workflow_dispatch
+    workflow_dispatch:
     schedule:
-        - cron: * 0/4 * * *
+        - cron: * 0/6 * * *
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
