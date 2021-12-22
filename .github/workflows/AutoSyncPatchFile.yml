@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: '* 0/6 * * *'
 jobs:
-  Explore-GitHub-Actions:
+  CN_Patch_Sync_Timing&Manually:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -33,5 +33,5 @@ jobs:
         git config user.email "1401548627@qq.com" 
         git add .
         sudo chmod +x ./GenerateCommitText.sh
-        ./GenerateCommitText.sh | git commit -m
+        git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
