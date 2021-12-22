@@ -28,10 +28,11 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.SYNCHONIZE_TOKEN }}
       run: |
-        cd ./TimingSync
         git config user.name "ROCO2021"
         git config user.email "1401548627@qq.com" 
         git add .
+        cd ./TimingSync
         sudo chmod +x ./GenerateCommitText.sh
         git commit -m $(./GenerateCommitText.sh)
+        cd ..
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
