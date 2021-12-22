@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: '* 0/6 * * *'
 jobs:
-  CN_Patch_Sync_Timing&Manually:
+  CN_Patch_Sync_Timing_or_Manually:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
