@@ -33,5 +33,5 @@ jobs:
         git add .
         cd ./TimingSync
         sudo chmod +x ./GenerateCommitText.sh
-        git commit -m ${./GenerateCommitText.sh}
+        git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
