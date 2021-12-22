@@ -12,7 +12,7 @@ jobs:
       run: |
         cd ./TimingSync
         sudo apt-get update
-        sudo apt-get wget
+        sudo apt-get install wget
         sudo wget -tries=10 https://srv.thpatch.net/lang_zh-hans/files.js
         ./PatchFileSync repo_files.js files.js
         sudo rm -f repo_files.js
