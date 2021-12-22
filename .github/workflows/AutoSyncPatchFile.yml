@@ -23,6 +23,7 @@ jobs:
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/aero
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tasofro
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tsa
+        sudo rm -rf ./aero/.svn ./base_tasofro/.svn ./base_tsa/.svn
             
     - name: Push the patch file to the GitHub repository.
       env:
@@ -35,3 +36,13 @@ jobs:
         sudo chmod +x ./GenerateCommitText.sh
         git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
+        
+    - name: Push the latest file to Coding repository.
+      uses: wearerequired/git-mirror-action@v1.2.0
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.CODING_RSA_PRIVATE_KEY }}
+      with:
+        # 来源仓库
+        source-repo: "git@github.com:ROCO-freedom/Thpatch_CN_Mirror.git"
+        # 目标仓库
+        destination-repo: "git@e.coding.net:thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git"
