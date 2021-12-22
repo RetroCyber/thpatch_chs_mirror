@@ -37,6 +37,9 @@ jobs:
         git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
         
+  Push_To_Coding_Repository:
+    runs-on: ubuntu-latest
+    steps:
     - name: Push the latest file to Coding repository.
       uses: wearerequired/git-mirror-action@v1.2.0
       env:
