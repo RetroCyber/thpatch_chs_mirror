@@ -7,9 +7,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-    - name: Pull the latest patch file from the main source server (https://srv.thpatch.net/lang_zh-hans/)
-    
     - uses: actions/checkout@v2
+    - name: Pull the latest patch file from the main source server (https://srv.thpatch.net/lang_zh-hans/)
     
         run: |
             cd ./TimingSync
