@@ -2577,5 +2577,6 @@
     "th175/data/sprite/story_title/name_scarlet.png": 986816683,
     "th175/data/sprite/story_title/name_fire.png": 2790854403,
     "th175/data/sprite/story_title/name_waterhell.png": 2790854403,
-    "th175/data/resource/subtitle/font_subtitle_0.png": 3004992605
+    "th175/data/resource/subtitle/font_subtitle_0.png": 3004992605,
+    "th175/spells.js": 304890220
 }
