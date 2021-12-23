@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: '* 0/6 * * *'
 jobs:
-  CN_Patch_Sync_Timing_or_Manually:
+  Download_latest_patch_file_and_save:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -23,7 +23,6 @@ jobs:
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/aero
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tasofro
         svn checkout https://github.com/thpatch/thcrap-tsa/trunk/base_tsa
-        sudo rm -rf ./aero/.svn ./base_tasofro/.svn ./base_tsa/.svn
             
     - name: Push the patch file to the GitHub repository.
       env:
@@ -38,7 +37,12 @@ jobs:
         git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
         
-  Push_To_Coding_Repository:
+    if: failure()
+    run:
+        echo "No need to update patch file in GitHub."
+    
+  Push_To_Coding:
+    needs: Download_latest_patch_file_and_save
     runs-on: ubuntu-latest
     steps:
     - name: Push the latest file to Coding repository.
@@ -51,3 +55,6 @@ jobs:
         source-repo: "git@github.com:ROCO-freedom/Thpatch_CN_Mirror.git"
         # 目标仓库
         destination-repo: "git@e.coding.net:thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git"
+    if: failure()
+    run:
+        echo "No need to synchonize the patch file."
