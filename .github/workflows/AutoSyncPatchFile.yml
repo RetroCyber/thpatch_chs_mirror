@@ -37,7 +37,7 @@ jobs:
         git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
         
-        if: failure()
+      if: failure()
         run:
             echo "No need to update patch file in GitHub."
     
@@ -56,6 +56,6 @@ jobs:
         # 目标仓库
         destination-repo: "git@e.coding.net:thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git"
         dry-run: true
-        if: failure()
+      if: failure()
         run:
             echo "No need to synchonize the patch file."
