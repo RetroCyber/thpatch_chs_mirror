@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: '0 0/6 * * *'
 jobs:
-  Download_latest_patch_file_and_save:
+  Synchonized_patch_file:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -41,11 +41,8 @@ jobs:
       if: failure()
       run: echo "No need to update patch file in GitHub."
     
-  Push_To_Coding:
-    needs: Download_latest_patch_file_and_save
-    runs-on: ubuntu-latest
-    steps:
     - name: Push the latest file to Coding repository.
+      if: always()
       uses: wearerequired/git-mirror-action@v1.2.0
       env:
         SSH_PRIVATE_KEY: ${{ secrets.CODING_RSA_PRIVATE_KEY }}
