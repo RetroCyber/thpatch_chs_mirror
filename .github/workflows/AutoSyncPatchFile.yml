@@ -2,7 +2,7 @@ name: Synchronize Thcrap Chinese branch patch file.
 on:
     workflow_dispatch:
     schedule:
-        - cron: '* 0/6 * * *'
+        - cron: '0 0/6 * * *'
 jobs:
   Download_latest_patch_file_and_save:
     runs-on: ubuntu-latest
@@ -37,9 +37,9 @@ jobs:
         git commit -m $(./GenerateCommitText.sh)
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
         
-    if: failure()
-    run:
-        echo "No need to update patch file in GitHub."
+        if: failure()
+        run:
+            echo "No need to update patch file in GitHub."
     
   Push_To_Coding:
     needs: Download_latest_patch_file_and_save
@@ -56,6 +56,6 @@ jobs:
         # 目标仓库
         destination-repo: "git@e.coding.net:thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git"
         dry-run: true
-    if: failure()
-    run:
-        echo "No need to synchonize the patch file."
+        if: failure()
+        run:
+            echo "No need to synchonize the patch file."
