@@ -2578,5 +2578,18 @@
     "th175/data/sprite/story_title/name_fire.png": 2790854403,
     "th175/data/sprite/story_title/name_waterhell.png": 2790854403,
     "th175/data/resource/subtitle/font_subtitle_0.png": 3004992605,
-    "th175/spells.js": 3154046364
+    "th175/spells.js": 3154046364,
+    "th175/data/event/script/marisa_stage2.pl.jdiff": 624632293,
+    "th175/data/event/script/marisa_stage2b.pl.jdiff": 2925193744,
+    "th175/data/event/script/marisa_stage2_win.pl.jdiff": 4696923,
+    "th175/data/event/script/marisa_stage3.pl.jdiff": 4050897774,
+    "th175/data/event/script/marisa_stage3b.pl.jdiff": 3383452672,
+    "th175/data/event/script/marisa_stage3_win.pl.jdiff": 1517380659,
+    "th175/data/event/script/marisa_stage4.pl.jdiff": 894479922,
+    "th175/data/event/script/marisa_stage4b.pl.jdiff": 1061524675,
+    "th175/data/event/script/marisa_stage4_win.pl.jdiff": 1636797114,
+    "th175/data/event/script/marisa_stage5.pl.jdiff": 3618453681,
+    "th175/data/event/script/marisa_stage5b.pl.jdiff": 1898209871,
+    "th175/data/event/script/marisa_stage5_win.pl.jdiff": 1909779324,
+    "th175/data/event/script/marisa_stage6.pl.jdiff": 3851754522
 }
