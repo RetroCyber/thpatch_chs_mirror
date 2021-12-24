@@ -36,13 +36,8 @@ jobs:
         git config --global user.email "1401548627@qq.com" 
         git add .
         git status
-        git commit -m $(echo -e "定时补丁文件更新。`date "+%Y-%m-%d===>%H:%M"`(UTC)")
-        git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
-      
-    - name: If failed to push GitHub repository.
-      if: failure()
-      run:
-        echo "No need to update patch file in GitHub."
+        git commit -m $(echo -e "定时补丁文件更新。`date "+%Y-%m-%d===>%H:%M"`(UTC)") || true
+        git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git || true
     
     - name: Push the latest file to Coding repository.
       if: always()
@@ -62,10 +57,6 @@ jobs:
         cd ./Thpatch_CN_Patchfiles_Mirror
         git add .
         git status
-        git commit -m $(echo -e "同步至国内仓库。`date "+%Y-%m-%d===>%H:%M"`(UTC)")
-        git push -f https://${CODING_NAME}:${CODING_TOKEN}@e.coding.net/thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git
+        git commit -m $(echo -e "同步至国内仓库。`date "+%Y-%m-%d===>%H:%M"`(UTC)") || true
+        git push -f https://${CODING_NAME}:${CODING_TOKEN}@e.coding.net/thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git || true
         
-    - name: If failed to push GitHub repository.
-      if: failure()
-      run:
-        echo "No need to synchonize the patch file."
