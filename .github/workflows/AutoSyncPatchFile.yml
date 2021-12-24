@@ -15,7 +15,7 @@ jobs:
         sudo chmod +x ./PatchFileSync
         ./PatchFileSync repo_files.js files.js
         if [[ -d "lang_zh-hans" ]]; then
-        sudo cp -frp ./lang_zh-hans/ ../lang_zh-hans/
+        sudo cp -frp ./lang_zh-hans/ ../
         sudo rm -rf ./lang_zh-hans
         fi
         sudo rm -f repo_files.js
