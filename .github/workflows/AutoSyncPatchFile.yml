@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: '0 0/6 * * *'
 jobs:
-  Synchonized_patch_file:
+  Download_latest_patch_file_and_save:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -31,29 +31,31 @@ jobs:
         git config user.name "ROCO2021"
         git config user.email "1401548627@qq.com" 
         git add .
-        cd ./TimingSync
         git status
-        sudo chmod +x ./GenerateCommitText.sh
-        git commit -m $(./GenerateCommitText.sh)
+        git commit -m $(echo -e "定时补丁文件更新。`date "+%Y-%m-%d===>%H:%M"`(UTC)")
         git push https://$GITHUB_TOKEN@github.com/ROCO-freedom/Thpatch_CN_Mirror.git
-        
-    - name: If No need to push the patch files to GitHub.
+      
+    - name: If failed to push GitHub repository.
       if: failure()
-      run: echo "No need to update patch file in GitHub."
+      run:
+        echo "No need to update patch file in GitHub."
     
     - name: Push the latest file to Coding repository.
       if: always()
-      uses: wearerequired/git-mirror-action@v1.2.0
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.CODING_RSA_PRIVATE_KEY }}
-        SSH_KNOWN_HOSTS: ${{ secrets.BOTH_KNOWN_HOSTS }}
-      with:
-        # 来源仓库
-        source-repo: "git@github.com:ROCO-freedom/Thpatch_CN_Mirror.git"
-        # 目标仓库
-        destination-repo: "git@e.coding.net:thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git"
-        dry-run: true
+          CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
+          CODING_NAME: ${{ secrets.CODING_NAME }}
+      run: |
+        sudo cp ./TimingSync/.gitignore ./.gitignore
+        sudo rm -rf ./.github ./aero/.svn/ ./base_tasofro/.svn/ ./base_tsa/.svn/ ./TimingSync
+        git config user.name "ROCO2021"
+        git config user.email "1401548627@qq.com" 
+        git add .
+        git status
+        git commit -m $(echo -e "同步至国内仓库。`date "+%Y-%m-%d===>%H:%M"`(UTC)")
+        git push https://${CODING_NAME}:${CODING_TOKEN}@e.coding.net/thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git
         
-    - name: No need to sychonize the patch files to Coding.
+    - name: If failed to push GitHub repository.
       if: failure()
-      run: echo "No need to synchonize the patch file."
+      run:
+        echo "No need to synchonize the patch file."
