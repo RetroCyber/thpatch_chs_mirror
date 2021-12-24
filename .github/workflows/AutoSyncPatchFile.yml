@@ -32,8 +32,8 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.SYNCHONIZE_TOKEN }}
       run: |
-        git config suser.name "ROCO2021"
-        git config user.email "1401548627@qq.com" 
+        git config --global user.name "ROCO2021"
+        git config --global user.email "1401548627@qq.com" 
         git add .
         git status
         git commit -m $(echo -e "定时补丁文件更新。`date "+%Y-%m-%d===>%H:%M"`(UTC)")
