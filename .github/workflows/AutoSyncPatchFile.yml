@@ -12,8 +12,11 @@ jobs:
       run: |
         cd ./TimingSync
         sudo wget -tries=10 https://srv.thpatch.net/lang_zh-hans/files.js
+        sudo mkdir lang_zh-hans
         sudo chmod +x ./PatchFileSync
         ./PatchFileSync repo_files.js files.js
+        sudo cp -frp ./lang_zh-hans/ ../lang_zh-hans/
+        sudo rm -rf ./lang_zh-hans
         sudo rm -f repo_files.js
         sudo cp files.js ../lang_zh-hans/files.js
         sudo mv files.js repo_files.js
