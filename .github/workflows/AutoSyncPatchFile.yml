@@ -50,14 +50,20 @@ jobs:
           CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
           CODING_NAME: ${{ secrets.CODING_NAME }}
       run: |
-        sudo cp ./TimingSync/.gitignore ./.gitignore
         sudo rm -rf ./.github ./aero/.svn/ ./base_tasofro/.svn/ ./base_tsa/.svn/ ./TimingSync
+        git clone https://${CODING_NAME}:${CODING_TOKEN}@e.coding.net/thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git
+        sudo rm -rf ./Thpatch_CN_Patchfiles_Mirror/aero ./Thpatch_CN_Patchfiles_Mirror/base_tasofro ./Thpatch_CN_Patchfiles_Mirror/base_tsa ./Thpatch_CN_Patchfiles_Mirror/lang_zh-hans
+        sudo cp -frp ./aero ./Thpatch_CN_Patchfiles_Mirror
+        sudo cp -frp ./base_tasofro ./Thpatch_CN_Patchfiles_Mirror
+        sudo cp -frp ./base_tsa ./Thpatch_CN_Patchfiles_Mirror
+        sudo cp -frp ./lang_zh-hans ./Thpatch_CN_Patchfiles_Mirror
         git config user.name "ROCO2021"
         git config user.email "1401548627@qq.com" 
+        cd ./Thpatch_CN_Patchfiles_Mirror
         git add .
         git status
         git commit -m $(echo -e "同步至国内仓库。`date "+%Y-%m-%d===>%H:%M"`(UTC)")
-        git push https://${CODING_NAME}:${CODING_TOKEN}@e.coding.net/thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git
+        git push -f https://${CODING_NAME}:${CODING_TOKEN}@e.coding.net/thpatch-cn/thcrapcn/Thpatch_CN_Patchfiles_Mirror.git
         
     - name: If failed to push GitHub repository.
       if: failure()
