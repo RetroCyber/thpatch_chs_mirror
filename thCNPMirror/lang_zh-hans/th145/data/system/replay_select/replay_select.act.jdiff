@@ -1,0 +1,35 @@
+{
+    "/sprites/5/keyframe/layout/stText": [
+        "播放Replay",
+        "删除Replay",
+        "返回"
+    ],
+    "/sprites/10/keyframe/layout/stText": "※Replay Data不存在※",
+    "/root/nutstream/stream/Functions/1/Literals/22": "↑↓选择　←→翻页　Ｚ播放　Ｘ返回至标题画面",
+    "/root/nutstream/stream/Functions/7/Literals/5": "↑↓选择　",
+    "/root/nutstream/stream/Functions/7/Literals/8": "←→翻页　",
+    "/root/nutstream/stream/Functions/7/Literals/9": "Ｚ决定　",
+    "/root/nutstream/stream/Functions/7/Literals/11": "Ｘ返回至标题画面",
+    "/root/nutstream/stream/Functions/7/Literals/12": "Ｘ返回上级文件夹",
+    "/root/nutstream/stream/Functions/7/Literals/38": "文件属性=",
+    "/root/nutstream/stream/Functions/7/Literals/57": [
+        "播放Replay",
+        "删除Replay",
+        "返回"
+    ],
+    "/root/nutstream/stream/Functions/9/Literals/3": "↑↓选择　Ｚ决定　Ｘ取消",
+    "/root/nutstream/stream/Functions/9/Literals/8": [
+        "播放Replay",
+        "删除Replay",
+        "返回"
+    ],
+    "/root/nutstream/stream/Functions/9/Literals/40": "文件属性=",
+    "/root/nutstream/stream/Functions/9/Literals/48": "Replay播放:",
+    "/root/nutstream/stream/Functions/10/Literals/3": "↑↓选择　Ｚ决定　Ｘ取消",
+    "/root/nutstream/stream/Functions/10/Literals/8": [
+        "将被删除，可以吗？",
+        "　　 是",
+        "　　 否"
+    ],
+    "/root/nutstream/stream/Functions/10/Literals/40": "文件属性="
+}

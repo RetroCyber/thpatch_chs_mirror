@@ -1,0 +1,57 @@
+name: Mirror Repo and Update
+
+on:
+  schedule:
+    # Runs every 4 hours from midnight
+    - cron: '0 */4 * * *'
+  # Allows manual triggering of the workflow
+  workflow_dispatch:
+
+jobs:
+  update-patch:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the current repository (RetroCyber/thpatch_chs_mirror)
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        repository: RetroCyber/thpatch_chs_mirror
+        token: ${{ secrets.SYNCHONIZE_TOKEN }}
+        path: clones/RetroCyber/thpatch_chs_mirror
+
+    # Step 2: Load the script for mirror patching into the working directory
+    - name: Get the mirror script
+      run: |
+        cd clones/RetroCyber/thpatch_chs_mirror
+        git clone https://github.com/RetroCyber/thcrap_patch_mirror.git
+
+    # Step 3: Install dependencies for the script in RetroCyber/thcrap_patch_mirror
+    - name: Install Python dependencies
+      run: |
+        cd clones/RetroCyber/thpatch_chs_mirror
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r ./thcrap_patch_mirror/requirements.txt
+
+    # Step 4: Run the mirror_repo.py script located in RetroCyber/thcrap_patch_mirror
+    - name: Run mirror_repo.py
+      run: |
+        cd clones/RetroCyber/thpatch_chs_mirror
+        source venv/bin/activate
+        python3 ./thcrap_patch_mirror/mirror_repo.py
+        rm -rf ./thcrap_patch_mirror/ ./venv/
+
+    # Step 5: Check for changes and commit if there are any
+    - name: Commit changes if any
+      run: |
+        cd clones/RetroCyber/thpatch_chs_mirror
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        if [ -n "$(git status --porcelain)" ]; then
+          git add .
+          git commit -m "补丁更新：$(date -u '+%Y-%m-%d ===> %H:%M(UTC)')"
+          git push
+        else
+          echo "No changes detected."
+        fi

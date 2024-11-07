@@ -1,0 +1,9 @@
+{
+    "/sprites/0/keyframe/layout/stText": "要保存Replay吗？",
+    "/sprites/1/keyframe/layout/stText": [
+        "是",
+        "否"
+    ],
+    "/root/nutstream/stream/Functions/4/Literals/14": "决定",
+    "/root/nutstream/stream/Functions/4/Literals/22": "取消"
+}

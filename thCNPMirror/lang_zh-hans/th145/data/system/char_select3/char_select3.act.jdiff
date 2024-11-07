@@ -1,0 +1,47 @@
+{
+    "/sprites/0/keyframe/layout/stText": "Ａ决定 　Ｂ返回至角色选择画面　　←→选择",
+    "/sprites/71/keyframe/layout/stText": [
+        "Ｚ决定",
+        "Ｘ取消",
+        "Ｃ档案",
+        "↑↓←→选择"
+    ],
+    "/sprites/75/keyframe/layout/stText": [
+        "Ｚ决定",
+        "Ｘ取消",
+        "Ｃ档案",
+        "↑↓←→选择"
+    ],
+    "/root/nutstream/stream/Functions/2/Literals/27": "Error: 图像读取失败 [",
+    "/root/nutstream/stream/Functions/5/Literals/3": "网络对战模式开始角色选择\\n",
+    "/root/nutstream/stream/Functions/7/Literals/4": [
+        "\\s[10] ",
+        " ",
+        " ",
+        " ",
+        "\\s[9] ",
+        "\\s[21]\\c[255,250,140]Ｘ\\c[255,255,255]取消\\n"
+    ],
+    "/root/nutstream/stream/Functions/7/Literals/7": "\\c[255,255,255]↑↓　　    选择\\n",
+    "/root/nutstream/stream/Functions/7/Literals/8": "\\c[255,255,255]↑↓←→    选择\\n",
+    "/root/nutstream/stream/Functions/7/Literals/9": "\\c[120,180,255]Ｚ\\c[255,255,255]决定\\n",
+    "/root/nutstream/stream/Functions/7/Literals/11": "\\c[255,250,140]Ｘ\\c[255,255,255]取消\\n",
+    "/root/nutstream/stream/Functions/7/Literals/12": "\\c[255,250,140]Ｘ\\c[255,255,255]长按切断\\n",
+    "/root/nutstream/stream/Functions/7/Literals/13": "\\c[160,255,255]Ｃ\\c[180,180,180]\\s[20]+\\s[21]\\c[255,255,255]↑↓←→ 保密\\n",
+    "/root/nutstream/stream/Functions/7/Literals/14": "\\c[0,255,255]　　　　　[",
+    "/root/nutstream/stream/Functions/7/Literals/19": [
+        "\\c[160,255,255]Ｃ\\c[255,255,255]档案 \\n",
+        "\\c[0,255,255]　　　　　["
+    ],
+    "/root/nutstream/stream/Functions/7/Literals/20": [
+        "\\c[255,255,255]网络对战档案 \\n",
+        "\\c[0,255,255]　　　　　["
+    ],
+    "/root/nutstream/stream/Functions/7/Literals/34": "\\c[255,255,255]剩余",
+    "/root/nutstream/stream/Functions/7/Literals/35": "战",
+    "/root/nutstream/stream/Functions/12/Literals/6": "退出菜单",
+    "/root/nutstream/stream/Functions/16/Literals/48": "读取调色板:",
+    "/root/nutstream/stream/Functions/18/Literals/27": "读取调色板:",
+    "/root/nutstream/stream/Functions/22/Literals/16": "1P颜色=",
+    "/root/nutstream/stream/Functions/22/Literals/17": "2P颜色="
+}

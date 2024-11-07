@@ -1,0 +1,59 @@
+{
+    "/sprites/3/keyframe/layout/stText": "输入档案名称",
+    "/sprites/6/keyframe/layout/stText": "※请用键盘输入名称（最多12文字）",
+    "/sprites/10/keyframe/layout/stText": [
+        "删除档案",
+        "",
+        "将被删除，可以吗？",
+        "",
+        "　　　　　　　 是",
+        "　　　　　　　 否"
+    ],
+    "/sprites/13/keyframe/layout/stText": [
+        "复制档案",
+        "",
+        "将被复制，可以吗？",
+        "",
+        "　　　　　　　 是",
+        "　　　　　　　 否"
+    ],
+    "/sprites/16/keyframe/layout/stText": "输入档案名称\\n",
+    "/sprites/18/keyframe/layout/stText": "※请用键盘输入名称（最多12文字）\\n",
+    "/sprites/37/keyframe/layout/stText": [
+        "选择档案",
+        "按键设置",
+        "",
+        "",
+        "",
+        "选择档案",
+        "按键设置",
+        "",
+        "",
+        "返回"
+    ],
+    "/sprites/48/keyframe/layout/stText": [
+        "按键设置",
+        "图标选择",
+        "新建档案",
+        "复制档案",
+        "删除档案",
+        "重命名档案",
+        "",
+        "返回至标题画面"
+    ],
+    "/sprites/38/keyframe/layout/stText": "玩家１\\n",
+    "/sprites/39/keyframe/layout/stText": "玩家２\\n",
+    "/root/nutstream/stream/Functions/5/Literals/14": "↑↓选择　Ｚ决定　Ｘ取消",
+    "/root/nutstream/stream/Functions/7/Literals/4": "↑↓选择　Ｚ决定　Ｘ取消",
+    "/root/nutstream/stream/Functions/10/Literals/47": "显示键位分配",
+    "/root/nutstream/stream/Functions/10/Literals/58": "键盘分配[",
+    "/root/nutstream/stream/Functions/10/Literals/60": "手柄分配[",
+    "/root/nutstream/stream/Functions/11/Literals/3": "↑↓选择　Ｚ决定　Ｘ取消",
+    "/root/nutstream/stream/Functions/12/Literals/5": "Enter 决定　Esc 取消",
+    "/root/nutstream/stream/Functions/12/Literals/42": "※名称重复※",
+    "/root/nutstream/stream/Functions/13/Literals/20": "删除.prf",
+    "/root/nutstream/stream/Functions/17/Literals/56": "Error: 图像读取失败[",
+    "/root/nutstream/stream/Functions/18/Literals/29": "选择档案\\n",
+    "/root/nutstream/stream/Functions/18/Literals/30": "键位设置\\n",
+    "/root/nutstream/stream/Functions/18/Literals/40": "返回"
+}
