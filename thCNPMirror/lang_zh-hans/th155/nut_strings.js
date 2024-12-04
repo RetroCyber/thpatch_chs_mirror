@@ -5,7 +5,7 @@
     "Random Select": "随机选择",
     "Game title": "东方凭依华　～ Antinomy of Common Flowers.",
     "No change": "不指定",
-    "Joon 1": "A:近打击　  B:射击　  C:符卡射击",
+    "Joon 1": "A:近打击　B:射击　C:符卡射击",
     "Dir creation failed": "执行程序所需的目录创建失败了。",
     "Yukari boss": "切换到下仆来躲避红色蓄力攻击！",
     "Save replay": "要保存Replay吗？",
