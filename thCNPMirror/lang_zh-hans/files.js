@@ -3834,7 +3834,7 @@
 	"th155/data/event/script/tenshi/ed.pl.jdiff": 3366736211,
 	"th155/data/event/script/tenshi/stage1.pl.jdiff": 608823493,
 	"th155/data/event/script/tenshi/stage2.pl.jdiff": 1033497090,
-	"th155/data/event/script/tenshi/stage3.pl.jdiff": 728815345,
+	"th155/data/event/script/tenshi/stage3.pl.jdiff": 4265829724,
 	"th155/data/event/script/tenshi/stage4.pl.jdiff": 527890041,
 	"th155/data/event/script/tenshi/stage5.pl.jdiff": 730828783,
 	"th155/data/event/script/udonge/ed.pl.jdiff": 3396318089,
