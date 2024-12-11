@@ -1,5 +1,5 @@
 {
-    "Yukari boss 2": "黑色子弹对下仆无效",
+    "Yukari boss 2": "下仆不会被黑色子弹击中",
     "New version 1": "有新版本",
     "New version 2": "请进行更新",
     "Random Select": "随机选择",
