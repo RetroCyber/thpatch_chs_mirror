@@ -3809,7 +3809,7 @@
 	"th155/data/event/script/mamizou/stage3.pl.jdiff": 3351346069,
 	"th155/data/event/script/mamizou/stage4.pl.jdiff": 4098355134,
 	"th155/data/event/script/mamizou/stage5.pl.jdiff": 3824936582,
-	"th155/data/event/script/marisa/ed.pl.jdiff": 2932943988,
+	"th155/data/event/script/marisa/ed.pl.jdiff": 1168926290,
 	"th155/data/event/script/marisa/stage1.pl.jdiff": 3339115362,
 	"th155/data/event/script/marisa/stage2.pl.jdiff": 3378171374,
 	"th155/data/event/script/marisa/stage3.pl.jdiff": 2593996135,
