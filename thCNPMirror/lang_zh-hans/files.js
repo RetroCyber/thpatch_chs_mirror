@@ -1770,7 +1770,7 @@
 	"th123/data/scenario/suika/win.cv0.jdiff": 1667463401,
 	"th123/data/scenario/suwako/win.cv0.jdiff": 2293889604,
 	"th123/data/scenario/tenshi/win.cv0.jdiff": 250164212,
-	"th123/data/scenario/udonge/win.cv0.jdiff": 991514059,
+	"th123/data/scenario/udonge/win.cv0.jdiff": 1441308439,
 	"th123/data/scenario/utsuho/win.cv0.jdiff": 571668898,
 	"th123/data/scenario/youmu/win.cv0.jdiff": 835071103,
 	"th123/data/scenario/yukari/win.cv0.jdiff": 637160063,
