@@ -3818,7 +3818,7 @@
 	"th155/data/event/script/miko/ed.pl.jdiff": 2517246909,
 	"th155/data/event/script/miko/stage1.pl.jdiff": 1696969,
 	"th155/data/event/script/miko/stage2.pl.jdiff": 1077235191,
-	"th155/data/event/script/miko/stage3.pl.jdiff": 4013681692,
+	"th155/data/event/script/miko/stage3.pl.jdiff": 2348271273,
 	"th155/data/event/script/miko/stage4.pl.jdiff": 2910749796,
 	"th155/data/event/script/miko/stage5.pl.jdiff": 92594500,
 	"th155/data/event/script/nitori/ed.pl.jdiff": 2895792466,
