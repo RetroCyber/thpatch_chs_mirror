@@ -2931,7 +2931,7 @@
 	"th135/data/system/stage_select/bgmlist.png": 1654334435,
 	"th135/data/system/stage_select/explain_stage.png": 2258682448,
 	"th135/data/system/stage_select/main_right_stageselect.png": 1603282526,
-	"th135/data/system/stage_select/stagename.png": 2593765577,
+	"th135/data/system/stage_select/stagename.png": 8543300,
 	"th135/data/system/story_select/character_name.png": 1084829807,
 	"th135/data/system/story_select/com_set.png": 2726818682,
 	"th135/data/system/story_select/explain_story1.png": 2635652867,
