@@ -3983,7 +3983,7 @@
 	"th155/data/win/message/miko.csv.jdiff": 795957439,
 	"th155/data/win/message/mokou.csv.jdiff": 3665319317,
 	"th155/data/win/message/nitori.csv.jdiff": 1484748570,
-	"th155/data/win/message/reimu.csv.jdiff": 2986876992,
+	"th155/data/win/message/reimu.csv.jdiff": 1297839205,
 	"th155/data/win/message/sinmyoumaru.csv.jdiff": 1822740647,
 	"th155/data/win/message/tenshi.csv.jdiff": 205347680,
 	"th155/data/win/message/udonge.csv.jdiff": 3698909000,
