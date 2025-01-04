@@ -3868,7 +3868,7 @@
 	"th155/data/system/ed/staffpic/staffmoji9.png": 38412928,
 	"th155/data/system/ed/staffpic/staffpic3.png": 934713664,
 	"th155/data/system/ed/staffroll.csv.jdiff": 2485010400,
-	"th155/data/system/help/help.png": 462523007,
+	"th155/data/system/help/help.png": 3208588137,
 	"th155/data/system/help/item.csv.jdiff": 3661007656,
 	"th155/data/system/key_config/config_moji1.png": 625124677,
 	"th155/data/system/key_config/config_pad1.png": 290809108,
