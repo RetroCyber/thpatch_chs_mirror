@@ -3798,7 +3798,7 @@
 	"th155/data/event/script/futo/stage3.pl.jdiff": 304808188,
 	"th155/data/event/script/futo/stage4.pl.jdiff": 316483728,
 	"th155/data/event/script/futo/stage5.pl.jdiff": 4211658078,
-	"th155/data/event/script/jyoon/ed.pl.jdiff": 2833488012,
+	"th155/data/event/script/jyoon/ed.pl.jdiff": 1158928595,
 	"th155/data/event/script/jyoon/stage1.pl.jdiff": 3416219053,
 	"th155/data/event/script/jyoon/stage2.pl.jdiff": 2125579921,
 	"th155/data/event/script/jyoon/stage3.pl.jdiff": 3951241973,
