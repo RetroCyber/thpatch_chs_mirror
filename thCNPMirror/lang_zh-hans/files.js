@@ -1352,7 +1352,7 @@
 	"th105/data/scene/staffroll/moji/moji07.png": 366800036,
 	"th105/data/scene/staffroll/moji/moji08.png": 4002085289,
 	"th105/data/scene/staffroll/moji/moji09.png": 2575496025,
-	"th105/spellcomments.js": 3054380669,
+	"th105/spellcomments.js": 243962979,
 	"th105/spells.js": 1185800343,
 	"th11/ascii/ascii.png": 1040903057,
 	"th11/ascii/pause.png": 3158332398,
