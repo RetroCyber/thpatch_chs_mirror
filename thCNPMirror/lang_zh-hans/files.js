@@ -868,7 +868,7 @@
 	"th095/musiccmt.js": 2513535568,
 	"th095/spells.js": 3490529331,
 	"th10/ascii/ascii.png": 1040903057,
-	"th10/ascii/pause.png": 2291878112,
+	"th10/ascii/pause.png": 1519889337,
 	"th10/e00.msg.jdiff": 3409282392,
 	"th10/e01.msg.jdiff": 2443895981,
 	"th10/e02.msg.jdiff": 1608621594,
