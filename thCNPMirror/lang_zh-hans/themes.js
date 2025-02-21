@@ -829,7 +829,7 @@
     "mcd_10_11": "毕竟不单夜晚有鬼怪",
     "mcd_scoow06_01": "明星Rocket",
     "mcd_scoow06_02": "DesireDrive",
-    "mcd_scoow04_01": "轮回Harvest",
-    "mcd_scoow04_02": "无生命Surface",
+    "mcd_scoow04_01": "丰穰巡回",
+    "mcd_scoow04_02": "没有生命的月表",
     "mcd_scoow04_03": "结束的现实和，远在后方的"
 }
