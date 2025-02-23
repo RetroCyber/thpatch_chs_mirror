@@ -923,7 +923,7 @@
 	"th10/title/select01.png": 419866333,
 	"th10/title/sl_pl00b.png": 1196842576,
 	"th10/title/sl_pl01b.png": 670297752,
-	"th10/title/weapon.png": 4257012357,
+	"th10/title/weapon.png": 1420370571,
 	"th105/data/card/common/card005.png": 3926001068,
 	"th105/data/guide/00.png": 1600929457,
 	"th105/data/guide/01.png": 2526524459,
