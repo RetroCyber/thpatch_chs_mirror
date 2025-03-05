@@ -317,7 +317,7 @@
     "th155": "东方凭依华　～ Antinomy of Common Flowers",
     "th16": "东方天空璋　～ Hidden Star in Four Seasons",
     "th165": "秘封噩梦日记　～ Violet Detector",
-    "th17": "东方鬼形兽 　～ Wily Beast and Weakest Creature",
+    "th17": "东方鬼形兽　～ Wily Beast and Weakest Creature",
     "nsml": "魔理沙和六个蘑菇 - New Super Marisa Land",
     "megamari": "MegaMari - 魔理沙的野望",
     "marilega": "MarisaLand Legacy",
