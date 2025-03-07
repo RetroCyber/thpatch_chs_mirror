@@ -4381,7 +4381,7 @@
 	"th175/data/event/script/flandre_lose_base.pl.jdiff": 4164780713,
 	"th175/data/event/script/flandre_return_base.pl.jdiff": 480747306,
 	"th175/data/event/script/flandre_stage1.pl.jdiff": 3189010668,
-	"th175/data/event/script/flandre_stage1_easy.pl.jdiff": 2525369816,
+	"th175/data/event/script/flandre_stage1_easy.pl.jdiff": 1427027089,
 	"th175/data/event/script/flandre_stage1_easy_win.pl.jdiff": 3588599691,
 	"th175/data/event/script/flandre_stage1_hard.pl.jdiff": 112199026,
 	"th175/data/event/script/flandre_stage1_hard_win.pl.jdiff": 830329649,
