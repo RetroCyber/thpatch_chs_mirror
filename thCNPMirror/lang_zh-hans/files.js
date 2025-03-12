@@ -1842,7 +1842,7 @@
 	"th123/data/scene/staffroll/moji/moji[06].png": 2667745231,
 	"th123/data/scene/staffroll/moji/moji[07].png": 565909936,
 	"th123/data/scene/staffroll/moji/moji[09].png": 4030225169,
-	"th123/data/scene/title/1_titlel.png": 1930389323,
+	"th123/data/scene/title/1_titlel.png": 484148405,
 	"th123/data/scene/title/2_title.png": 3876308228,
 	"th123/spellcomments.js": 1861860005,
 	"th123/spells.js": 710855215,
