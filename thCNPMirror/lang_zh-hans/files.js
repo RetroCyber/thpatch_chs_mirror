@@ -4514,7 +4514,7 @@
 	"th175/data/resource/char_select/char_comment1.png": 1831116043,
 	"th175/data/resource/char_select/char_comment2.png": 1471576966,
 	"th175/data/resource/char_select/char_comment3.png": 1414467218,
-	"th175/data/resource/char_select/char_comment4.png": 1015202105,
+	"th175/data/resource/char_select/char_comment4.png": 2356219425,
 	"th175/data/resource/char_select/char_comment5.png": 3403591260,
 	"th175/data/resource/char_select/char_comment6.png": 2391194635,
 	"th175/data/resource/char_select/char_comment7.png": 1362284847,
