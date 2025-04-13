@@ -536,5 +536,6 @@
     "th07_log_Vsync": "不进行垂直同步\n",
     "th095_log_refresh_rate_suggestion": "尝试将刷新率更改为60Hz\n",
     "th13 practice spell name unknown": " No.%3d  ？？？？？？？？？？",
-    "th13 practice spell name known": " No.%3d  %s"
+    "th13 practice spell name known": " No.%3d  %s",
+    "th20": "东方锦上京　～ Fossilized Wonders"
 }
