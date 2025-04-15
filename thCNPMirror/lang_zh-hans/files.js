@@ -4588,7 +4588,7 @@
 	"th175/data/sprite/spell_name_files/flandre_002.png": 2766588516,
 	"th175/data/sprite/spell_name_files/flandre_003.png": 3478234510,
 	"th175/data/sprite/spell_name_files/jyoon_001.png": 3946276132,
-	"th175/data/sprite/spell_name_files/jyoon_002.png": 172887390,
+	"th175/data/sprite/spell_name_files/jyoon_002.png": 2317609650,
 	"th175/data/sprite/spell_name_files/jyoon_003.png": 3334467829,
 	"th175/data/sprite/spell_name_files/kanako_001.png": 2220566501,
 	"th175/data/sprite/spell_name_files/kanako_002.png": 3262509467,
