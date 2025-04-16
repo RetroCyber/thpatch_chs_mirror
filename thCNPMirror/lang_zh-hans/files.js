@@ -4360,7 +4360,7 @@
 	"th175/data/cutin/reimu/name_panel.png": 1090356725,
 	"th175/data/cutin/toutetu/name_panel.png": 864454184,
 	"th175/data/cutin/utuho/name_panel.png": 2001355060,
-	"th175/data/cutin/yamame/name_panel.png": 2221885884,
+	"th175/data/cutin/yamame/name_panel.png": 3422733546,
 	"th175/data/cutin/yuugi/name_panel.png": 4064408818,
 	"th175/data/event/pic/ed/flandre-B2.png": 4102462645,
 	"th175/data/event/pic/ed/flandre-B2_line.png": 2698632296,
