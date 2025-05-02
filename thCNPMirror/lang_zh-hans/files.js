@@ -2091,7 +2091,7 @@
 	"th13/help_07.png": 3103824389,
 	"th13/help_08.png": 2582038730,
 	"th13/loading/sig.png": 3597637854,
-	"th13/musiccmt.js": 3322316096,
+	"th13/musiccmt.js": 1305624049,
 	"th13/spells.js": 3411108767,
 	"th13/st01a.msg.jdiff": 3787925626,
 	"th13/st01b.msg.jdiff": 2062275593,
