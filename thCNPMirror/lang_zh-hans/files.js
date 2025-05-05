@@ -5134,5 +5134,6 @@
 	"th19/title/title_ver_tr.png": 2122144115,
 	"th19/titlemsg.js": 1222660797,
 	"th19/trophy.js": 3180963619,
+	"th20/musiccmt.js": 3333418159,
 	"themes.js": 4196523289
 }
