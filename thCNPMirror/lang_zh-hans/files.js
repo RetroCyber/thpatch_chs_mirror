@@ -5145,8 +5145,10 @@
 	"th20/front/logo/st03logo.png": 1582108621,
 	"th20/loading/sig1280.png": 749318426,
 	"th20/musiccmt.js": 3333418159,
+	"th20/st01r0.msg.jdiff": 747568300,
 	"th20/stone/text.png": 872730652,
 	"th20/title/pldata_select.png": 4163370229,
+	"th20/title/rank00.png": 3909720259,
 	"th20/title/result00.png": 1886952498,
 	"th20/title/selecttitle/sl_manual.png": 676789494,
 	"th20/title/selecttitle/sl_music.png": 2872491180,
@@ -5162,6 +5164,7 @@
 	"th20/title/selecttitle/sl_trophy.png": 1678725329,
 	"th20/title/selecttitle/sl_weapon.png": 2874804974,
 	"th20/title/spell.png": 2837339648,
+	"th20/title/title_pl00c.png": 2743646042,
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 64274141,
 	"themes.js": 4196523289
