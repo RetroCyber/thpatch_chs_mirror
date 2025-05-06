@@ -5144,6 +5144,8 @@
 	"th20/front/logo/st02logo.png": 3658365456,
 	"th20/front/logo/st03logo.png": 1582108621,
 	"th20/help/helpmenu.png": 2536631477,
+	"th20/help_02.png": 3570817000,
+	"th20/help_03.png": 2269592935,
 	"th20/loading/sig1280.png": 749318426,
 	"th20/musiccmt.js": 3333418159,
 	"th20/spells.js": 2228991292,
