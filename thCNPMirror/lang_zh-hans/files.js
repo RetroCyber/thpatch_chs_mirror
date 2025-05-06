@@ -4809,7 +4809,7 @@
 	"th18/st07b.msg.jdiff": 3690088595,
 	"th18/st07c.msg.jdiff": 107988408,
 	"th18/st07d.msg.jdiff": 3572193171,
-	"th18/title/pldata_select.png": 4163370229,
+	"th18/title/pldata_select.png": 2404497892,
 	"th18/title/rank00.png": 3782699008,
 	"th18/title/rank00tr.png": 2539827036,
 	"th18/title/result00.png": 1886952498,
