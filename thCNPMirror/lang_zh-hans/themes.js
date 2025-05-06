@@ -831,5 +831,6 @@
     "mcd_scoow06_02": "DesireDrive",
     "mcd_scoow04_01": "丰穰巡回",
     "mcd_scoow04_02": "没有生命的月表",
-    "mcd_scoow04_03": "结束的现实和，远在后方的"
+    "mcd_scoow04_03": "结束的现实和，远在后方的",
+    "th20_04": "Sacred Forest"
 }

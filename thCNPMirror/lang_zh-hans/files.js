@@ -5143,8 +5143,10 @@
 	"th20/front/logo/st01logo.png": 2896404132,
 	"th20/front/logo/st02logo.png": 3658365456,
 	"th20/front/logo/st03logo.png": 1582108621,
+	"th20/help/helpmenu.png": 2536631477,
 	"th20/loading/sig1280.png": 749318426,
 	"th20/musiccmt.js": 3333418159,
+	"th20/spells.js": 2228991292,
 	"th20/st01r0.msg.jdiff": 747568300,
 	"th20/stone/text.png": 872730652,
 	"th20/title/pldata_select.png": 4163370229,
@@ -5167,5 +5169,5 @@
 	"th20/title/title_pl00c.png": 2743646042,
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 64274141,
-	"themes.js": 4196523289
+	"themes.js": 3821525874
 }
