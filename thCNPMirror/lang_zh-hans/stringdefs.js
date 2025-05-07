@@ -537,5 +537,17 @@
     "th095_log_refresh_rate_suggestion": "尝试将刷新率更改为60Hz\n",
     "th13 practice spell name unknown": " No.%3d  ？？？？？？？？？？",
     "th13 practice spell name known": " No.%3d  %s",
-    "th20": "东方锦上京　～ Fossilized Wonders"
+    "th20": "东方锦上京　～ Fossilized Wonders",
+    "th20 config": "东方锦上京　环境自定义程序",
+    "th20 option fullscreen 640": "全屏  640×480",
+    "th20 option fullscreen 960": "全屏  960×720",
+    "th20 option fullscreen 1280": "全屏 1280×960",
+    "th20 option window 640": "窗口  640×480",
+    "th20 option window 960": "窗口  960×720",
+    "th20 option window 1280": "窗口  1280×960",
+    "th20 option window 1920": "窗口  1920×1440",
+    "th20 option window 2560": "窗口  2560×1920",
+    "th20 option borderless dot": "无边框窗口 （点对点） ＊推荐",
+    "th20 option borderless": "无边框窗口",
+    "th20 JP": "东方锦上京"
 }

@@ -35,7 +35,7 @@
 	"megamari/data/title/0004.png": 1954560129,
 	"megamari/data/title/0005.png": 283117433,
 	"patch.js": 1484012905,
-	"stringdefs.js": 3975364314,
+	"stringdefs.js": 1706026225,
 	"th06/ascii.png": 1387634240,
 	"th06/asciis.png": 967294483,
 	"th06/end00.end.jdiff": 2206563758,
