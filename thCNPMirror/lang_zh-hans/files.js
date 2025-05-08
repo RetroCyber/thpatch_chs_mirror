@@ -5162,7 +5162,7 @@
 	"th20/title/selecttitle/sl_music.png": 2872491180,
 	"th20/title/selecttitle/sl_player.png": 539905696,
 	"th20/title/selecttitle/sl_playerdata.png": 683967594,
-	"th20/title/selecttitle/sl_playerdataselect.png": 181636703,
+	"th20/title/selecttitle/sl_playerdataselect.png": 1643880200,
 	"th20/title/selecttitle/sl_rank.png": 688088077,
 	"th20/title/selecttitle/sl_regist.png": 13674428,
 	"th20/title/selecttitle/sl_replay.png": 974133103,
