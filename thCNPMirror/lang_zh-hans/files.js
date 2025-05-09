@@ -5184,6 +5184,7 @@
 	"th20/title/selecttitle/sl_weapon.png": 2874804974,
 	"th20/title/spell.png": 2837339648,
 	"th20/title/title_pl00c.png": 2743646042,
+	"th20/title/title_pl01c.png": 3522543143,
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 64274141,
 	"themes.js": 3821525874
