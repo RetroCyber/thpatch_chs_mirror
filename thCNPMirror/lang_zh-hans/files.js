@@ -5139,7 +5139,7 @@
 	"th20/ascii/ascii_960.png": 1596137379,
 	"th20/ascii/pause.png": 4103463919,
 	"th20/ascii/pause_title.png": 281231220,
-	"th20/face/enemy1/ename01.png": 2180505843,
+	"th20/face/enemy1/ename01.png": 3414759869,
 	"th20/face/enemy2/ename01.png": 345959667,
 	"th20/face/enemy2/face01hp.png": 2811820635,
 	"th20/face/enemy2/face01hpl.png": 92375182,
@@ -5152,7 +5152,7 @@
 	"th20/front/logo/st01logo.png": 1829966237,
 	"th20/front/logo/st02logo.png": 3658365456,
 	"th20/front/logo/st03logo.png": 1582108621,
-	"th20/help/helpmenu.png": 2536631477,
+	"th20/help/helpmenu.png": 2645790069,
 	"th20/help_01.png": 2202895831,
 	"th20/help_02.png": 3570817000,
 	"th20/help_03.png": 2269592935,
@@ -5206,11 +5206,11 @@
 	"th20/title/selecttitle/sl_spell.png": 109991525,
 	"th20/title/selecttitle/sl_stage.png": 2622923496,
 	"th20/title/selecttitle/sl_trophy.png": 1678725329,
-	"th20/title/selecttitle/sl_weapon.png": 2874804974,
+	"th20/title/selecttitle/sl_weapon.png": 1531412837,
 	"th20/title/spell.png": 2837339648,
 	"th20/title/title_pl00c.png": 2743646042,
 	"th20/title/title_pl01c.png": 3522543143,
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 64274141,
-	"themes.js": 3821525874
+	"themes.js": 3854172663
 }
