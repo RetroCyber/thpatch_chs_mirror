@@ -5154,7 +5154,7 @@
 	"th20/front/logo/st03logo.png": 1582108621,
 	"th20/help/helpmenu.png": 2645790069,
 	"th20/help_01.png": 2202895831,
-	"th20/help_02.png": 3570817000,
+	"th20/help_02.png": 99757551,
 	"th20/help_03.png": 2269592935,
 	"th20/help_04.png": 3049870456,
 	"th20/help_05.png": 3354715888,
