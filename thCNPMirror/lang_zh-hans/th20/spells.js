@@ -14,6 +14,6 @@
     "26": "谜符「Hexagonal Labyrinth」(六角迷宫)",
     "28": "塞符「Logical Wall」(逻辑高墙)",
     "30": "塞符「Logical Great Wall」(逻辑长城)",
-    "32": "谜符「Enchant Trap」(附魔陷阱)",
+    "32": "谜符「Ancient Trap」(古老陷阱)",
     "36": "金符「弹幕金字塔」"
 }
