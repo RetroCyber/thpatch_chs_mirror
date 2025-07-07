@@ -48,7 +48,7 @@
     "marisa-203": "星符「Dragon Meteor」(龙流星)",
     "marisa-205": "魔符「Stardust Reverie」(星尘幻想)",
     "marisa-206": "星符「Escape Velocity」(逃逸速度)",
-    "marisa-207": "彗星「Blazing Star」(彗星)",
+    "marisa-207": "彗星「Blazing Star」(闪亮之星)",
     "marisa-208": "星符「Meteonic Shower」(流星雨)",
     "marisa-211": "光符「Luminous Strike」(光之冲击)",
     "marisa-215": "仪符「Orrery's Sun」(太阳仪)",

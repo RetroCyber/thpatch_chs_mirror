@@ -1,5 +1,5 @@
 {
-    "0": "棒符「Busy Rod」(忙碌探知棒)",
+    "0": "棒符「Busy Rod」(忙碌探宝棒)",
     "2": "搜符「Rare Metal Detector」(稀有金属探测器)",
     "4": "搜符「Gold Detector」(黄金探测器)",
     "6": "视符「Nazrin Pendulum」(娜兹玲灵摆)",
