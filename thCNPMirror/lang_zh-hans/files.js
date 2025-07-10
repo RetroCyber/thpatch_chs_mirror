@@ -118,7 +118,7 @@
 	"th07/msg8.dat.jdiff": 2273999976,
 	"th07/musiccmt.js": 1308472865,
 	"th07/phantasm.jpg": 1609967583,
-	"th07/spells.js": 2751623868,
+	"th07/spells.js": 3186675808,
 	"th07/ti_bossname.png": 3273208689,
 	"th07/ti_bosstitle.png": 2133225877,
 	"th075/character/00/122.png": 1343268297,
