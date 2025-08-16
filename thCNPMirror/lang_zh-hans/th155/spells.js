@@ -91,7 +91,7 @@
     "kokoro-lw": "＊就算这样，我也漂亮吧？＊",
     "usami-1": "铳符「3D Printer Gun」(3D打印枪)",
     "usami-2": "念力「Psychokinesis APP」(念力应用)",
-    "usami-3": "念力「Telekinesis 通信塔」(隔空移物　通信塔)",
+    "usami-3": "念力「Telekinesis 通信塔」",
     "sumireko-story-1": "W超能力「Phychokinesis Teleportation」(念力传送)",
     "sumireko-story-2": "W超能力「绝体绝命都市人」",
     "sumireko-story-3": "超能力「Psychokinesis Endless」(念力无限)",
