@@ -5212,5 +5212,5 @@
 	"th20/title/title_pl01c.png": 3522543143,
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 1147306340,
-	"themes.js": 3854172663
+	"themes.js": 719058400
 }
