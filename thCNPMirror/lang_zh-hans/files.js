@@ -4746,7 +4746,7 @@
 	"th18/face/enemy7/ename01.png": 1105567846,
 	"th18/face/enemy7/face07n2.png": 244382638,
 	"th18/face/enemy7/face07n2l.png": 1952436355,
-	"th18/front/front00.png": 3325170455,
+	"th18/front/front00.png": 3589552010,
 	"th18/front/logo/st01logo.png": 4128568156,
 	"th18/front/logo/st02logo.png": 1328251319,
 	"th18/front/logo/st03logo.png": 2532165491,
