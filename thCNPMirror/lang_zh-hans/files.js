@@ -5151,6 +5151,7 @@
 	"th20/face/enemy3/face01hpl.png": 4282007234,
 	"th20/face/enemy4/face01n2.png": 748495840,
 	"th20/face/enemy4/face01n2l.png": 4170361931,
+	"th20/face/enemy5/ename01.png": 2959972679,
 	"th20/front/front00.png": 2409716826,
 	"th20/front/logo/st01logo.png": 2384485532,
 	"th20/front/logo/st02logo.png": 1585354835,
