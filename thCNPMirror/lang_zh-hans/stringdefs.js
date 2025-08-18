@@ -579,5 +579,8 @@
     "th20 notice equip": "可装备至扩散石、集中石、支援石",
     "th20 weapon amount": "拥有数",
     "th20 charname Reimu Hakurei full": "博丽 灵梦",
-    "th20 charname Marisa Kirisame full": "雾雨 魔理沙"
+    "th20 charname Marisa Kirisame full": "雾雨 魔理沙",
+    "th20 notice Reimu extra unlock": "灵梦『%s』",
+    "th20 notice Marisa extra unlock": "魔理沙『%s』",
+    "th20 notice extra unlock": "的Extra解锁了"
 }
