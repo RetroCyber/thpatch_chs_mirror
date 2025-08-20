@@ -5167,7 +5167,7 @@
 	"th20/help_08.png": 3335005223,
 	"th20/help_09.png": 2473776088,
 	"th20/loading/sig1280.png": 3345229743,
-	"th20/musiccmt.js": 2864838497,
+	"th20/musiccmt.js": 2716225452,
 	"th20/spells.js": 15863247,
 	"th20/st01m0.msg.jdiff": 959840027,
 	"th20/st01m1.msg.jdiff": 587976326,
