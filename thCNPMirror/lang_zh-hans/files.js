@@ -5139,7 +5139,7 @@
 	"th20/ascii/pause.png": 4103463919,
 	"th20/ascii/pause_title.png": 281231220,
 	"th20/e00a0.msg.jdiff": 2929673913,
-	"th20/e00a1.msg.jdiff": 185694439,
+	"th20/e00a1.msg.jdiff": 113075828,
 	"th20/e00a2.msg.jdiff": 530062651,
 	"th20/e00a3.msg.jdiff": 2093095297,
 	"th20/e00a4.msg.jdiff": 530062651,
