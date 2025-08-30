@@ -5139,10 +5139,10 @@
 	"th20/ascii/pause.png": 4103463919,
 	"th20/ascii/pause_title.png": 281231220,
 	"th20/e00a0.msg.jdiff": 3563219440,
-	"th20/e00a1.msg.jdiff": 4247458979,
+	"th20/e00a1.msg.jdiff": 185694439,
 	"th20/e00a2.msg.jdiff": 3603564700,
 	"th20/e00a3.msg.jdiff": 1969848222,
-	"th20/e00a4.msg.jdiff": 530062651,
+	"th20/e00a4.msg.jdiff": 891038728,
 	"th20/e00a5.msg.jdiff": 1322173051,
 	"th20/e00a6.msg.jdiff": 1192821119,
 	"th20/e00a7.msg.jdiff": 3732627240,
@@ -5154,7 +5154,7 @@
 	"th20/e01a4.msg.jdiff": 2722481243,
 	"th20/e01a5.msg.jdiff": 3316978463,
 	"th20/e01a6.msg.jdiff": 4014583757,
-	"th20/e01a7.msg.jdiff": 1997793486,
+	"th20/e01a7.msg.jdiff": 2110823573,
 	"th20/e01b.msg.jdiff": 2336745029,
 	"th20/ending/e00a0a.png": 2328714262,
 	"th20/ending/e00a0b.png": 647150868,
@@ -5319,5 +5319,5 @@
 	"th20/title/title_pl01c2.png": 3104974337,
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 4219247017,
-	"themes.js": 719058400
+	"themes.js": 3296505786
 }
