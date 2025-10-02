@@ -5265,7 +5265,7 @@
 	"th20/st05m0.msg.jdiff": 2532205992,
 	"th20/st05m1.msg.jdiff": 3052201363,
 	"th20/st05m2.msg.jdiff": 2851017547,
-	"th20/st05m3.msg.jdiff": 3354215401,
+	"th20/st05m3.msg.jdiff": 1768006301,
 	"th20/st05r0.msg.jdiff": 317258595,
 	"th20/st05r1.msg.jdiff": 3091721830,
 	"th20/st05r2.msg.jdiff": 3168414527,
@@ -5320,5 +5320,5 @@
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 180132137,
 	"th20/trophy.v0.01a.js": 1147306340,
-	"themes.js": 3296505786
+	"themes.js": 1234022922
 }
