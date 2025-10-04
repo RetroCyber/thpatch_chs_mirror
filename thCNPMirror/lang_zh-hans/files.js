@@ -3167,7 +3167,7 @@
 	"th143/title/selecttitle/sl_nickname.png": 1307268167,
 	"th143/title/selecttitle/sl_replay.png": 2056642068,
 	"th143/titlemsg.js": 2283736594,
-	"th143/trophy.js": 1479344652,
+	"th143/trophy.js": 3028158653,
 	"th143/tutorial01.png": 1103138373,
 	"th143/tutorial02.png": 1295016790,
 	"th143/tutorial03.png": 2342639353,
