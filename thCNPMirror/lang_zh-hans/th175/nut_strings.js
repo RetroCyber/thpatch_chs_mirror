@@ -23,7 +23,7 @@
     "Config Change Value": "切换",
     "Config OK": "确定",
     "Config Back": "返回",
-    "Config Button Selection": "请按下要绑定的按键：",
+    "Config Button Selection": "请按下要绑定的按键：↑(上)",
     "Config Keys": "\\C[255,0,0]任意按键：绑定按键　ESC：退出设置",
     "Config Graze": "按键1(擦弹) & 确定",
     "Config Attack": "按键2(攻击) & 取消",
@@ -225,5 +225,6 @@
     "Hint Close": "关闭",
     "Pause Choose Option": "选择",
     "Pause Ok": "确定",
-    "Pause Back": "返回"
+    "Pause Back": "返回",
+    "Config Button Selection 2": "请按下要绑定的按键："
 }

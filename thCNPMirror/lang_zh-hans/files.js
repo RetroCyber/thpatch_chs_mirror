@@ -4667,7 +4667,7 @@
 	"th175/data/sprite/tutorial/tutorial_toutetu2.png": 2300555964,
 	"th175/data/sprite/ui/font_fight.gif": 251937865,
 	"th175/data/sprite/ui/reimu_object.gif": 2792231413,
-	"th175/nut_strings.js": 3773799893,
+	"th175/nut_strings.js": 2133978423,
 	"th175/resource/char_select/char_comment1.png": 1831116043,
 	"th175/resource/char_select/char_name1.png": 208089847,
 	"th175/resource/char_select/font_alias_name.png": 2474088881,
