@@ -51,7 +51,7 @@
 	"th06/msg4.dat.jdiff": 2217451593,
 	"th06/msg5.dat.jdiff": 2724514893,
 	"th06/msg6.dat.jdiff": 3493700681,
-	"th06/msg7.dat.jdiff": 3904126082,
+	"th06/msg7.dat.jdiff": 318426677,
 	"th06/music00.png": 2148720506,
 	"th06/musiccmt.js": 827292489,
 	"th06/replay00.png": 1105101201,
