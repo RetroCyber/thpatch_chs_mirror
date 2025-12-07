@@ -903,7 +903,7 @@
 	"th10/front/st06logo.png": 1181931282,
 	"th10/front/st07logo.png": 2924519111,
 	"th10/musiccmt.js": 4123715847,
-	"th10/spells.js": 1134565195,
+	"th10/spells.js": 1240655501,
 	"th10/st01_00.msg.jdiff": 2721341500,
 	"th10/st01_01.msg.jdiff": 773020544,
 	"th10/st02_00.msg.jdiff": 2498811746,
