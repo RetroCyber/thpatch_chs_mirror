@@ -3991,7 +3991,7 @@
 	"th155/data/win/message/usami.csv.jdiff": 3766227861,
 	"th155/data/win/message/yukari.csv.jdiff": 4156527745,
 	"th155/nut_strings.js": 1191326132,
-	"th155/spells.js": 5787701,
+	"th155/spells.js": 769563815,
 	"th16/ascii/ascii.png": 1040903057,
 	"th16/ascii/ascii_1280.png": 3148789517,
 	"th16/ascii/ascii_960.png": 1596137379,
