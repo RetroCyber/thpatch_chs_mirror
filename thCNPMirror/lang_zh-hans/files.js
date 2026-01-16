@@ -2017,7 +2017,7 @@
 	"th128/st_c1_3.msg.jdiff": 1435656812,
 	"th128/st_c2_2.msg.jdiff": 1450413585,
 	"th128/st_c2_3.msg.jdiff": 509464051,
-	"th128/st_ex.msg.jdiff": 2905853016,
+	"th128/st_ex.msg.jdiff": 2606417281,
 	"th128/title/rank00.png": 2562199356,
 	"th128/title/rank01.png": 3977504765,
 	"th128/title/rank02.png": 30705801,
