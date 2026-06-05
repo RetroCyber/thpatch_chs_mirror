@@ -5158,7 +5158,7 @@
 	"th20/e01b.msg.jdiff": 404913708,
 	"th20/ending/e00a0a.png": 2328714262,
 	"th20/ending/e00a0b.png": 647150868,
-	"th20/ending/e00a0c.png": 94703049,
+	"th20/ending/e00a0c.png": 4189999817,
 	"th20/ending/e00a1a.png": 66630445,
 	"th20/ending/e00a1b.png": 507163459,
 	"th20/ending/e00a2a.png": 2821758354,
