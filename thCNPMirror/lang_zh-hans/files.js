@@ -5176,7 +5176,7 @@
 	"th20/ending/e01a0a.png": 369179955,
 	"th20/ending/e01a0b.png": 1966630936,
 	"th20/ending/e01a1a.png": 4039631683,
-	"th20/ending/e01a2a.png": 2287848340,
+	"th20/ending/e01a2a.png": 417438542,
 	"th20/ending/e01a2b.png": 3480917684,
 	"th20/ending/e01a3a.png": 2734945399,
 	"th20/ending/e01a3b.png": 1377797542,
