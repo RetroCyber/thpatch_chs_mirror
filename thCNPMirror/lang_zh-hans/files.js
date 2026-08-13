@@ -4939,7 +4939,7 @@
 	"th19/ascii/pause.png": 4103463919,
 	"th19/ascii/pause_title.png": 281231220,
 	"th19/dicttrans.js": 1619548338,
-	"th19/end00.msg.jdiff": 4264049326,
+	"th19/end00.msg.jdiff": 3190663707,
 	"th19/end01.msg.jdiff": 4195835032,
 	"th19/end02.msg.jdiff": 3929184127,
 	"th19/end03.msg.jdiff": 3470838054,
