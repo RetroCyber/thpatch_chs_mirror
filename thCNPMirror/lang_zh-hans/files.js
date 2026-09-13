@@ -65,14 +65,14 @@
 	"th06/select05.png": 366717511,
 	"th06/slpl00b.png": 1288793555,
 	"th06/slpl01b.png": 4258210551,
-	"th06/spells.js": 4133496013,
+	"th06/spells.js": 2139332464,
 	"th06/staff01.png": 1351457188,
 	"th06/staff03.png": 3221147528,
-	"th06/stages.js": 3318421867,
-	"th06/ti_bgm.png": 2155800135,
+	"th06/stages.js": 3773250574,
+	"th06/ti_bgm.png": 3771408748,
 	"th06/ti_bossname.png": 3164604071,
 	"th06/ti_bosstitle.png": 1561696971,
-	"th06/ti_sttitle.png": 659012331,
+	"th06/ti_sttitle.png": 2964511524,
 	"th06/title04.png": 2442269171,
 	"th06/title04s.png": 4232851671,
 	"th07/data/ascii/ascii.png": 619698729,
@@ -5320,5 +5320,5 @@
 	"th20/title/title_ver_tr.png": 655400580,
 	"th20/trophy.js": 180132137,
 	"th20/trophy.v0.01a.js": 1147306340,
-	"themes.js": 3608382328
+	"themes.js": 1313418055
 }
