@@ -25,7 +25,7 @@
     "th08 Bomb Reimu": "灵符「梦想妙珠」",
     "th08 Bomb Reimu Last": "神灵「梦想封印　瞬」",
     "th08 Bomb Yukari": "境符「四重结界」",
-    "th08 Bomb Yukari Last": "境界「永夜四重结界」",
+    "th08 Bomb Yukari Last": "界线「永夜四重结界」",
     "th08 Bomb Marisa Last": "魔炮「Final Spark」(究极火花)",
     "th08 Bomb Alice": "魔符「Artful Sacrifice」(狡猾的献祭)",
     "th08 Bomb Alice Last": "魔操「Return Inanimateness」(回归虚无)",

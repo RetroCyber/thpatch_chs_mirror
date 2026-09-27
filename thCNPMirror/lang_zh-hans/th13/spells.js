@@ -12,7 +12,7 @@
     "22": "山彦「Long-Range Echo」(远距离回声)",
     "24": "山彦「Amplify Echo」(扩大回声)",
     "26": "大声「Charged Cry」(激动的呼喊)",
-    "28": "大声「Charged Yahoo」(激动Yahoo)",
+    "28": "大声「Charged Yahoo」(激动呀呼)",
     "30": "虹符「Umbrella Cyclone」(雨伞风暴)",
     "32": "回复「Heal by Desire」(借由欲望的恢复)",
     "36": "毒爪「Poison Raze」(剧毒抹消)",
